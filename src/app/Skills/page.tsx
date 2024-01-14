@@ -24,9 +24,13 @@ export default function Skills(){
         <FontAwesomeIcon className='scale-50 w-60 text-white' icon={faFileExcel}  />
         </div>
 
-        <div className='my-24 text-white text-sm'>
+        <div className='mt-32 text-white text-sm flex justify-between mx-8'>
         <h1>Copyright © 2024 - All Right Reserved by KevinaMaydivaHeriansaputri.</h1>
+        <div className="flex gap-4">
+        <Link href="mailto:kevinamay23@gmail.com"><Icons.Mail className=' w-5' /></Link>
+        <Link href="https://www.instagram.com/kevinamaydiva_/"><Icons.Instagram className=' w-5' /></Link>
         <Link href="https://github.com/kevinamay"><Icons.GitHub className=' w-5' /></Link>
+        </div>
         </div>
         
     </div>

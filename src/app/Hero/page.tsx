@@ -20,6 +20,7 @@ export default function Hero() {
         className={` flex justify-center items-center p-4 transition-all ${
           buttonClicked ? "bg-blue-300" : "bg-indigo-950 "
         }`}
+        onClick={handleButtonClick}
       >
         <div className=" mx-12  text-white font-bold text-4xl h-screen flex items-center">
           <div>
@@ -49,8 +50,8 @@ export default function Hero() {
 
 <div className="flex justify-center  top-[-30rem] relative sm:top-[-10rem]  sm:relative ">
 
-      <div className="px-12 sm:p-0  sm:scale-100  hover:scale-90 duration-300">
-      <div className="hover:scale-125 duration-300 scale-150 px-12 sm:p-2 sm:scale-75">
+      <div className="mx-12 sm:p-0  sm:scale-100  hover:scale-90 duration-300">
+      <div className="hover:scale-125 duration-300 scale-150 mx-12 sm:p-2 sm:scale-75">
         <button
           className="p-4 hover:scale-100  sm:scale-90   bg-indigo-900 rounded-3xl hover:bg-blue-950  text-white hover:text-slate-300 duration-300"
           onClick={handleButtonClick}
@@ -62,8 +63,8 @@ export default function Hero() {
       </div>
       </div>
       
-      <div className="px-12 sm:p-0    sm:scale-100   hover:scale-90 duration-300">
-        <div className="hover:scale-125 duration-300 scale-150  px-12 sm:p-2  sm:scale-75">
+      <div className="mx-12 sm:p-0    sm:scale-100   hover:scale-90 duration-300">
+        <div className="hover:scale-125 duration-300 scale-150  mx-12 sm:p-2  sm:scale-75">
         <button
           className="p-4 hover:scale-100 duration-300  sm:scale-90   bg-indigo-900 rounded-3xl hover:bg-blue-950  text-white hover:text-slate-300 "
           onClick={handleButtonClick}

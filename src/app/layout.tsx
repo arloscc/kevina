@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
-      <body className={`${poppins.variable}  ${fira_Code.variable} ${whisper.variable}`}>{children}</body>
+      <body className={`${poppins.variable}  ${fira_Code.variable} ${whisper.variable} ` }>{children}</body>
     </html>
   )
 }

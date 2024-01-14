@@ -8,7 +8,9 @@ import Bio from "./Bio/page"
 export default function Page(){
   return(
     <>
-    
+    <style>
+      
+    </style>
     <Hero />
     <Bio />
     
